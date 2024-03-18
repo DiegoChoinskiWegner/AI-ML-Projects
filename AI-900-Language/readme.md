@@ -1,0 +1,3 @@
+Durante o processo, crei os ResourceGroup, e o Azure Language, porém sem sucesso de uso, durante o processo, encontrei a informação que o Language Studio está vinculado ao Azure AI Services, e logo criei também Azure AI Services, do mesmo modo que o lab 
+anterior não consegui utilizar o recurso. Tentei resolve-lo atualizando as Encryption Keys novamente, tentei também atualizar as políticas de IAM em relação as recursos, liberando o acesso total a minha conta, e mesmo assim sem sucesso de utilização do recurso.
+Sigo na tentativa da resolução, estou aprendendo muito sobre os processos de AI da Azure.
