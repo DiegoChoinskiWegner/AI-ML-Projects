@@ -14,6 +14,30 @@ import pandas as pd
 # https://colab.research.google.com/drive/1S9ThhinDflxU4KmTdxcv6_mE_vWwk2Jk#scrollTo=REXBQV3UX15X
 
 
+def sensibility_calc(tp, fn):
+    sensibility = tp/(tp+fn)
+    return sensibility
+
+def specificity_calc(tn, fp):
+    specificity = tn/(tn+fp)
+    return specificity
+
+def accuracy_calc(tp, tn, fp, fn):
+    accuracy = (tp+tn)/(tp+tn+fp+fn)
+    return accuracy
+
+def precision_calc(tp, fp):
+    precision = tp/(tp+fp)
+    return precision
+
+def f1_score_calc(precision, sensibility):
+    f1_score = 2*((precision*sensibility)/(precision+sensibility))
+    return f1_score
+
+
+
+
+
 tf.__version__
 
 %load_ext tensorboard
@@ -139,3 +163,5 @@ model1.fit(
 
 # Start TensorBoard.
 %tensorboard --logdir logs/images
+
+
