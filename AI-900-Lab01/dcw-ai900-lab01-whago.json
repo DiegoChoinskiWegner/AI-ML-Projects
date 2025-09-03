@@ -1,0 +1,25 @@
+{
+  "input_data": {
+    "columns": [
+      "id",
+      "nome",
+      "host_id",
+      "host_name",
+      "bairro_group",
+      "bairro",
+      "latitude",
+      "longitude",
+      "room_type",
+      "minimo_noites",
+      "numero_de_reviews",
+      "ultima_review",
+      "reviews_por_mes",
+      "calculado_host_listings_count",
+      "disponibilidade_365",
+      "Column17",
+      "Column18"
+    ],
+    "index": [],
+    "data": []
+  }
+}
